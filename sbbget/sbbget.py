@@ -347,7 +347,8 @@ if __name__ == "__main__":
         for line in lines:
             ppns.append(line.replace("\n", "").replace("PPN", ""))
             i += 1
-            if debugLimit and i >= debugLimit:
+            if debugLimit is not None and i >= debugLimit:
+                print("Degugging")
                 break
         f.close()
 
