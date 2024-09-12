@@ -1,5 +1,7 @@
 # StabiHacks
 
+Fork of https://github.com/elektrobohemian/StabiHacks with a few adjustments.
+
 Various utilities to deal with metadata and content provided by the Berlin State Library/Staatsbibliothek zu Berlin
 
 The scripts work together as illustrated below:
